@@ -1,0 +1,11 @@
+extern int process;
+extern int time_quantum;
+extern int *burst_time;
+extern int *completion_time;
+extern int *arrive_time;
+extern int *waiting_time;
+extern int *turn_around_time;
+extern int *priority_value;
+extern int gantt_index[];
+extern int gantt_value[];
+extern float average(int array[], int n);
